@@ -1,5 +1,5 @@
 window.onload = function() {
-    var images = ['teacher2.jpg', 'teacher1.png', 'hoangnamtien.png'];
+    var images = ['teacher2.jpg', 'teacher3.jpg', 'hoangnamtien.png', ];
     $('.answer,.tile').css({
         'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'
     });
